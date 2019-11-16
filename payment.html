@@ -1,0 +1,132 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="essentials.css" type="text/css">
+    <<link rel="stylesheet" href="payment.css" type="text/css">
+    <title>Payment</title>
+  </head>
+  <body>
+    <nav class="mainnav" id="mainnav">
+      <ul>
+        <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/PC%20Logo%202.png?raw=true" alt=""></a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/ShoppingCart.png?raw=true"></a></li>
+        <li class="hovright"><a href="#"><img class="navicon" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/User.png?raw=true"></a></li>
+      </ul>
+    </nav>
+
+<div class="maincontent">
+      <div class="row">
+       <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="David Miller">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="davidmiller@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="Somewhere over the rainbow......">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="eg. Tampines">
+
+                <div class="row">
+                  <div class="col-50">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="569830">
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="col-50">
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <img src="http://www.pngall.com/wp-content/uploads/2017/05/Visa-Logo-Free-Download-PNG.png" height="50px;" width="50px;"></img>
+                <img class="am" src="https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2018/04/4-you-might-not-notice-amex-new-brand.jpg" height="50px;" width="50px;"></img>
+                <img class="Mc" src="https://thumbs.dreamstime.com/t/moscow-russia-august-mastercard-logotype-printed-paper-black-background-mastercard-incorporated-american-multinational-122770513.jpg" height="50px;" width="50px;"></img>
+                <img class="JCB" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/1280px-JCB_logo.svg.png" height="50px;" width="50px;"></img>
+              </div>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="David Smith Miller">
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+
+              <div class="row">
+               <div class="col-50">
+                 <label for="expyear">Exp Year</label>
+                 <input type="text" id="expyear" name="expyear" placeholder="2018">
+               </div>
+               <div class="col-50">
+                 <label for="cvv">CVV</label>
+                 <input type="text" id="cvv" name="cvv" placeholder="352">
+               </div>
+              </div>
+             </div>
+         </div>
+         <label>
+           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+         </label>
+         <input type="submit" value="Continue to checkout" class="btn">
+       </form>
+   </div>
+ </div>
+</div>
+
+
+
+
+
+</div>
+
+
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-links">
+          <table>
+            <tr>
+              <th><a class="footer-title">PRODUCTS</a></th>
+              <th><a class="footer-title">SUPPORT</a></th>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">FAQ</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-rights">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("mainnav");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</html>
