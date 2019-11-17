@@ -1,0 +1,45 @@
+#Title {
+  text-align: center;
+  margin: 30px;
+}
+
+body {
+  color: white;
+}
+
+#menu-outer {
+  height: 300px;
+  border: 10px;
+  margin-bottom: 100px;
+}
+
+div.FAQQQ {
+  display: table; /* Allows the centering to fucking work */
+  margin: 0 auto;
+}
+
+ul.Horizontalist {
+  min-width: 40px;
+  list-style: none;
+  padding: 3px;
+}
+
+ul.Horizontalist li {
+  background-color: #F76C1A;
+  padding: 70px;
+  margin: 13px;
+  display: inline-block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
+
+#rite {
+  margin-left: 50px
+}

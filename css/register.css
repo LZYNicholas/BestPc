@@ -1,0 +1,53 @@
+.title {
+  color: white;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+
+.subtitle {
+  color: white;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 53%;
+  left: 15%;
+}
+
+.maincontent {
+  background-color: white;
+}
+
+.content {
+  padding: 80px 300px;
+}
+
+input{
+  width: 100%;
+  height: 20px;
+  border: solid black 0.5px;
+  border-radius: 5px;
+}
+
+.button{
+  margin-right: auto;
+  margin-left: 50%;
+  float: center;
+  padding: 5px;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  border: solid white 1px;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+
+}
+
+.button:hover{
+  color: black;
+  background-color: #FD6A02;
+  border: solid black 1px;
+  transition: 0.5s;
+}

@@ -1,0 +1,134 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/essentials.css" type="text/css">
+    <link rel="stylesheet" href="css/order.css" type="text/css"
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <nav class="mainnav" id="mainnav">
+      <ul>
+        <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/PC%20Logo%202.png?raw=true" alt=""></a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/ShoppingCart.png?raw=true"></a></li>
+        <li class="hovright"><a href="#"><img class="navicon" src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/User.png?raw=true"></a></li>
+      </ul>
+    </nav>
+
+<div class="maincontent">
+  <h1>Shopping Cart</h1>
+
+  <div class="column-labels">
+   <label class="product-image">Image</label>
+   <label class="product-details">Product</label>
+   <label class="product-price">Price</label>
+   <label class="product-quantity">Quantity</label>
+   <label class="product-removal">Remove</label>
+   <label class="product-line-price">Total</label>
+ </div>
+<br></br>
+ <div class="product">
+    <div class="product-image">
+      <img src="https://github.com/nicholas-the-pro-coder/BestPc/blob/master/media/PC%201%20Showcase%202.png?raw=true">
+    </div>
+    <div class="product-details">
+      <div class="product-title">CERBERUS PRO</div>
+      <p class="product-description">A no holds barred version of its baby brother,this is the build for those looking to push the boundaries in both form and function.</p>
+    </div>
+    <div class="product-price">7769.50</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">7769.50</div>
+ </div>
+
+
+ <div class="product">
+   <div class="product-image">
+     <img src="https://assets.logitech.com/assets/65776/53/mx-master-3.png">
+   </div>
+   <div class="product-details">
+     <div class="product-title">Logitech MX Master V3</div>
+     <p class="product-description">It’s the most advanced Master Series mouse yet – designed for creatives and engineered for coders. If you can think it, you can master it.</p>
+   </div>
+   <div class="product-price">90.00</div>
+   <div class="product-quantity">
+     <input type="number" value="1" min="1">
+   </div>
+   <div class="product-removal">
+     <button class="remove-product">
+       Remove
+     </button>
+   </div>
+   <div class="product-line-price">90.00s</div>
+</div>
+
+
+ <div class="totals">
+    <div class="totals-item">
+      <label class="Bottmlabel">Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">7859.50</div>
+    </div>
+  <div class="totals-item">
+     <label class="Bottmlabel">Shipping</label>
+     <div class="totals-value" id="cart-shipping">15.00</div>
+  </div>
+  <div class="totals-item totals-item-total">
+      <label class="Bottmlabel">Grand Total</label>
+      <div class="totals-value" id="cart-total">7874.50</div>
+  </div>
+</div>
+<button class="checkout">Continue to checkout</button>
+
+
+</div>
+
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-links">
+          <table>
+            <tr>
+              <th><a class="footer-title">PRODUCTS</a></th>
+              <th><a class="footer-title">SUPPORT</a></th>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">FAQ</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-rights">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("mainnav");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</html>
