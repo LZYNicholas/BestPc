@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+.maincontent {
+  height: 1350px;
+}
+.row {
+  margin: 0 -16px;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+  height: 40px;
+  width: 30px;
+}
+.am {
+  margin-left: 60px;
+  margin-top: -50px;
+}
+.Mc {
+  margin-left: 120px;
+  margin-top: -50px;
+}
+.JCB {
+  margin-left: 180px;
+  margin-top: -50px;
+}
+.btn {
+  background-color: #FD6A02;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn:hover {
+  color: black;;
+}
