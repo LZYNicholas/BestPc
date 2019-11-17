@@ -1,3 +1,178 @@
 .maincontent {
   background-color: white;
 }
+
+.contenttitle {
+  font-size:60px;
+}
+
+.content {
+  padding: 50px 0 0 500px;
+}
+
+.productdesc img {
+  float: left;
+  margin-right: 20px;
+}
+
+.productdesc {
+  overflow: auto;
+  width: 60%;
+}
+
+.proofnreschedule {
+  margin-top: 30px;
+}
+
+.proof {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 7px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.reschedule {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 7px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.arrivingdesc1 {
+  width:800px;
+  min-width: 1px;
+  overflow:auto;
+}
+
+.arrivingdesc2 {
+  width: 800px;
+  min-width: 1px;
+  overflow:auto;
+}
+
+.arrivingdesc1 p {
+  margin:0;
+  color:green;
+}
+
+.arrivingdesc2 p {
+  margin:0;
+  color:green;
+}
+
+.progressbar {
+  width: 800px;
+  background-color: #bbb;
+  border-radius: 13px;
+  height: 26px;
+}
+
+.progress {
+  width:240px;
+  height:22px;
+  border-radius:10px;
+  background-color:green;
+}
+
+.progresspercent {
+  width: 800px;
+  min-height:40px;
+  overflow:hidden;
+}
+
+.progresspercent p {
+  margin:0;
+}
+
+#deliverystatus {
+  margin-top:70px;
+  font-size:20px;
+}
+
+.unsubbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 7px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.unsubbutton:hover {
+  color:orange;
+  transition: .2s
+}
+
+.updatesbox {
+  border:3px solid #b3b3b3;
+  padding:10px;
+}
+
+.updatesbox p {
+  margin-bottom:40px;
+}
+
+.updatesdiv {
+  width:30%;
+  float:left;
+}
+
+.shipmentdetails {
+  float:right;
+}
+
+.updatesshipment {
+  width:70%;
+  min-height: 1px;
+  overflow:auto;
+}
+
+#divider {
+  margin-bottom:100px ;
+}
+
+#subnotice {
+  margin:0;
+  color:red;
+  width:200px;
+  height:40px;
+}
+
+.shipmentdetails td {
+  padding: 30px 30px 30px 5px;
+}
+
+.showbtn {
+  cursor:pointer;
+  border:none;
+  background:none;
+  padding:0;
+  color:black;
+}
+
+.showbtn:hover {
+  color:orange;
+  transition:.2s
+}

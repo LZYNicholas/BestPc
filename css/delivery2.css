@@ -1,0 +1,16 @@
+.maincontent {
+  background-color: white;
+}
+
+.content {
+  padding: 80px 300px;
+}
+
+.moreshipmentdetails td{
+  padding: 30px 30px 30px 5px;
+}
+
+.moreshipmentdetails {
+  width:50%;
+  margin:0 auto;
+}

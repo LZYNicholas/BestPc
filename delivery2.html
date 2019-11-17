@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/essentials.css" type="text/css" rel="stylesheet">
+    <link href="css/delivery2.css" type="text/css" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+  <!-- Navigation Bar -->
+  <nav class="mainnav" id="mainnav">
+    <ul>
+      <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+      <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+      <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+      <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+      <li class="hovright"><a href="#"><img class="navicon" src="media/User.png"></a></li>
+    </ul>
+  </nav>
+  <!-- CONTENT -->
+  <div class="maincontent">
+    <div class="content">
+      <h1 class="contenttitle" style="text-align:center;">Shipment Details</h1>
+      <div class="moreshipmentdetails">
+        <table border="1" style="border-collapse:collapse;border:grey;">
+          <tr><td colspan="2" bgcolor="#d3d3d3">Last update: Last Friday, 15 Nov</td></tr>
+          <tr><td rowspan="2"><span style="padding-left:25px;">2:53 PM (15 Nov)</span></td><td>Package has arrived the courier facility</td></tr>
+          <tr><td>Courier: PCdelivery Transport Services</td></tr>
+          <tr><td rowspan="2"><span style="padding-left:25px;">1.32 AM (16 Nov)</span></td><td>Package has left the courier facility</td></tr>
+          <tr><td>Courier: PCdelivery Transport Services</td></tr>
+        </table>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+  </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-links">
+          <table>
+            <tr>
+              <th><a class="footer-title">PRODUCTS</a></th>
+              <th><a class="footer-title">SUPPORT</a></th>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">FAQ</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-rights">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("mainnav");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</html>

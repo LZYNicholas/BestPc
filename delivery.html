@@ -20,10 +20,50 @@
     <!-- CONTENT -->
     <div class="maincontent">
       <div class="content">
-        <h1 class="contenttitle" style="text-align:center;">ok boomer</h1>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2 class="contenttitle">Tracking delivery</h2>
+        <div class="productdesc"><img src="media/PC 1 Showcase 2.png" width="300px" height="200px"><p style="margin:0;font-size:40px;">Cerberus</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="proofnreschedule">
+          <a button class="proof" href="proofdelivery.html">Proof Of Delivery</button></a>
+          <a button class="reschedule" href="reschedule.html">Delivery Reschedule</button></a>
+        </div>
+        <p id="deliverystatus">Delivery Status:</p>
+        <div class="progressbar">
+          <div class="progress"></div>
+        </div>
+        <div class="progresspercent">
+          <p style="float: left;">Ordered</p>
+          <p style="float: right;">Arrived</p>
+          <p style="float:right;width:250px;">Out for delivery</p>
+          <p style="float:right;width:300px;">Shipping</p>
+        </div>
+        <div class="arrivingdesc1">
+          <p style="float:right;">Arriving 17 Nov</p>
+        </div>
+        <div class="arrivingdesc2" id="divider">
+          <p style="float:right;">180 Ang Mo Kio Avenue 8 blk 101 #05-05</p>
+        </div>
+        <div class="updatesshipment">
+          <div class="updatesdiv">
+            <h3>Get text messages updates</h3>
+            <div class="updatesbox">
+              <p>Updates are sent to +65 1234 5678</p>
+              <p id="subnotice"></p>
+              <button type="button" class="unsubbutton" id="unsub" onclick="unsub()">Unsubscribe</button>
+            </div>
+          </div>
+          <div class="shipmentdetails">
+            <h3>Shipment Details</h3>
+            <table border="1" style="border-collapse:collapse;border:grey;">
+              <tr><td colspan="2" bgcolor="#d3d3d3">Last update: Last Friday, 15 Nov</td></tr>
+              <tr><td rowspan="2"><span style="padding-left:25px;">2:53 PM (15 Nov)</span></td><td>Package has arrived the courier facility</td></tr>
+              <tr><td>Courier: PCdelivery Transport Services</td></tr>
+            </table>
+            <a button class="showbtn" href="delivery2.html">Show More</button></a>
+          </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
       </div>
     </div>
   </body>
@@ -66,5 +106,19 @@
         navbar.classList.remove("sticky");
       }
     }
+    function unsub() {
+      var unsubvalue = document.getElementById("unsub")
+      if (unsubvalue.innerHTML === "Unsubscribe") {
+        var result = confirm("Are you sure you want to unsubscribe?")
+          if (result == true) {
+              unsubvalue.innerHTML="Subscribe"
+              document.getElementById("subnotice").innerHTML = "*** You are not subscribed to text messages updates ***"
+            }
+      }
+      else {
+        unsubvalue.innerHTML="Unsubscribe"
+        document.getElementById("subnotice").innerHTML = ""
+        }
+      }
   </script>
 </html>

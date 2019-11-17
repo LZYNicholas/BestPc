@@ -1,0 +1,23 @@
+.maincontent {
+  background-color: white;
+}
+
+.content {
+  padding: 80px 500px;
+}
+
+table td {
+  padding:15px;
+}
+
+.deliverynproduct {
+  overflow:auto;
+}
+
+.deliveryinfo {
+  float:left;
+}
+
+.productinfo {
+  float:right;
+}
