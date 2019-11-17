@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/essentials.css" type="text/css" rel="stylesheet">
+    <link href="css/profile.css" type="text/css" rel="stylesheet">
+    <title>User Account Registration</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="mainnav" id="mainnav">
+      <ul>
+        <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+        <li class="hovright"><a href="#"><img class="navicon" src="media/User.png"></a></li>
+      </ul>
+    </nav>
+    <!-- CONTENT -->
+    <div class="maincontent">
+      <div class="content">
+        <h1 class="contenttitle" style="text-align:center;">My Profile</h1>
+        <h3>Name: </h3>
+        <p>David Miller</p>
+        <br>
+        <h3>Email: </h3>
+        <p>davidmiller@gmail.com</p>
+        <br>
+        <h3>Mobile: </h3>
+        <p>+65 1234 5678</p>
+        <br>
+        <h3>Billing Address: </h3>
+        <p>180 Ang Mo Kio Avenue 8 Blk 101 #05-05</p>
+        <br>
+        <h3>Postal Code: </h3>
+        <p>569830</p>
+        <br>
+        <h3>Password: </h3>
+        <p>123456</p>
+        <a href="updateParticular.html" class="button">Update Particular</a>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-links">
+          <table>
+            <tr>
+              <th><a class="footer-title">PRODUCTS</a></th>
+              <th><a class="footer-title">SUPPORT</a></th>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">FAQ</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-rights">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("mainnav");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</html>
