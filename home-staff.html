@@ -1,0 +1,138 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link href="css/essentials.css" type="text/css" rel="stylesheet">
+  <link href="css/index.css" type="text/css" rel="stylesheet">
+  <title>PC</title>
+</head>
+<body>
+<!-- Product Gallery -->
+<div class="gallery" id="top">
+  <div class="gallerytext">
+    <a class="title">GET YOUR <span style="color:#FD6A02;">CUSTOM PC</span></a>
+    <a class="subtitle">TODAY!</a>
+    <a class="gallerybutton" href="#">FIND OUT MORE</a>
+  </div>
+</div>
+
+<!-- Navigation Bar -->
+  <nav class="mainnav" id="mainnav">
+    <ul>
+      <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+      <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+      <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+      <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+      <li class="hovright"><a href="#" id="login"><img class="navicon" src="media/User.png"></a></li>
+    </ul>
+  </nav>
+
+<!--Modal-->
+<div class="big-modal">
+    <div class="modal-content">
+      <div class="close">+</div>
+      <h3>Log In</h3>
+      <img src="media/User.png" alt="">
+      <form class="" action="" method="post">
+        <input type="text" placeholder="Enter Username">
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <div class="prompt-button">
+          <a href="staff-profile.html" class="button" id="login-button">LOGIN</a>
+          <br>
+          <br>
+          <a href="registerform.html" class="button" id="register-button">SIGN UP</a>
+        </div>
+
+      </form>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="maincontent">
+  <div class="content">
+    <h1 class="contenttitle" style="text-align:center;">Introduction</h1>
+    <p>We specialise in building custom Desktops for people who loves to play games.
+      We provide desktops that allows user to further cutsomise to suit thier needs.
+      Our Destop ranges from a meduim to high range price based on tits specs.
+      We hope that your could find your dream machine through our services.</p>
+    <br><br>
+    <h1 class="contenttitle" style="text-align:center;">Checkout Latest Products</h1>
+    <div class="container">
+      <div class="box">
+        <img src="media/PC 1 Showcase 3.png" alt="">
+        <h3>Cerberus</h3>
+        <br>
+        <a class="product_button" id="cbutton" href="#">Find out more</a>
+      </div>
+      <div class="box">
+        <img src="media/PC 1 Showcase 3.png" alt="">
+        <h3>HEXUS</h3>
+        <br>
+        <a class="product_button" id="h-button" href="#">Find out more</a>
+      </div>
+      <div class="box">
+        <img src="media/PC 1 Showcase 3.png" alt="">
+        <h3>Hopper</h3>
+        <br>
+        <a class ="product_button" id="hbutton" href="#">Find out more</a>
+      </div>
+      <br>
+      <br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  </div>
+</div>
+</body>
+<footer>
+  <div class="footer">
+    <div class="footer-left">
+      <div class="footer-links">
+        <table>
+          <tr>
+            <th><a class="footer-title">PRODUCTS</a></th>
+            <th><a class="footer-title">SUPPORT</a></th>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">FAQ</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer-rights">
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("mainnav");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+  //BigModal
+  document.getElementById('login').addEventListener('click',
+  function popupLogin(){
+    document.querySelector('.big-modal').style.display = 'flex';
+  });
+  document.querySelector('.close').addEventListener('click',
+  function closePopup(){
+    document.querySelector('.big-modal').style.display = 'none';
+  })
+</script>
+</html>
