@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/essentials.css" type="text/css" rel="stylesheet">
+    <link href="css/confirmreschedule.css" type="text/css" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+  <!-- Navigation Bar -->
+    <nav class="mainnav" id="mainnav">
+      <ul>
+        <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+        <li class="hovleft"><a class="hov" href="cerberus.html">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HEXUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HOPPER</a></li>
+        <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+        <li class="hovright"><a href="#" id="login"><img class="navicon" src="media/User.png"></a></li>
+      </ul>
+    </nav>
+  <!-- CONTENT -->
+  <div class="maincontent">
+    <div class="content">
+      <h1 class="contenttitle" style="text-align:center;">Confirm Your Information</h1>
+      <div class="confirmbox">
+        <p>Email:</p>
+        <p class="colour">davidmiller@gmail.com</p><br>
+        <p>Contact Number:</p>
+        <p class="colour">+65 1234 5678</p><br>
+        <p>Date for redelivery(MM/DD/YYYY):</p>
+        <p class="colour">11/25/2019</p><br>
+        <p>Address:</p>
+        <p class="colour">180 Ang Mo Kio Avenue 8 Blk 101 #05-05</p><br>
+        <p>Postal Code:</p>
+        <p class="colour">569830</p>
+        <a href="delivery.html"><button class="button">Confirm</button></a>
+      </div>
+    </div>
+  </div>
+  </body>
+  <footer>
+    <div class="footer">
+      <div class="footer-left">
+        <div class="footer-links">
+          <table>
+            <tr>
+              <th><a class="footer-title">PRODUCTS</a></th>
+              <th><a class="footer-title">SUPPORT</a></th>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">FAQ</a></td>
+            </tr>
+            <tr>
+              <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+              <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="footer-rights">
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("mainnav");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</html>
