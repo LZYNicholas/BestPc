@@ -14,6 +14,7 @@ body {
 /* Nav Bar */
 .mainnav {
   overflow: hidden;
+  z-index: 1;
 }
 
 .mainnav ul {
