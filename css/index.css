@@ -19,7 +19,7 @@
 
 .title {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 45%;
@@ -28,7 +28,7 @@
 
 .subtitle {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   transform: translate(-50%, -50%);
   position: absolute;
   top: 53%;
