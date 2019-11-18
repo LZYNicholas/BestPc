@@ -3,16 +3,16 @@
 }
 
 .contenttitle {
-  font-size:60px;
+  font-size:350%;
 }
 
 .content {
-  padding: 50px 0 0 500px;
+  padding: 5% 0 0 27%;
 }
 
 .productdesc img {
   float: left;
-  margin-right: 20px;
+  margin-right: 4%;
 }
 
 .productdesc {
@@ -20,8 +20,26 @@
   width: 60%;
 }
 
+.productdesc p {
+  font-family: Calibri;
+}
+
 .proofnreschedule {
-  margin-top: 30px;
+  font-family: Calibri;
+}
+
+.proofnreschedule {
+  margin-top: 1%;
+}
+
+.proof:hover {
+  color:orange;
+  transition:.3s;
+}
+
+.reschedule:hover {
+  color:orange;
+  transition:.3s;
 }
 
 .proof {
@@ -32,7 +50,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
@@ -47,7 +65,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
@@ -135,18 +153,16 @@
 }
 
 .updatesdiv {
-  width:30%;
-  float:left;
+  width:100%;
 }
 
 .shipmentdetails {
-  float:right;
 }
 
 .updatesshipment {
-  width:70%;
-  min-height: 1px;
+  width:100%;
   overflow:auto;
+  padding-bottom: 250px;
 }
 
 #divider {
@@ -175,4 +191,8 @@
 .showbtn:hover {
   color:orange;
   transition:.2s
+}
+
+table.shiptable {
+  table-layout: fixed;
 }
