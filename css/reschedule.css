@@ -3,17 +3,14 @@
 }
 
 .content {
-  padding: 80px 500px;
+  padding: 80px 100px;
 }
 
 .form {
   background-color:#f2f2f2;
   padding: 40px;
   border-radius: 5px;
-}
-
-.formgroup {
-  float:left;
+  margin-bottom: 400px;
 }
 
 input[type=text], select {
@@ -46,7 +43,7 @@ input[type=date], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+button[type=submit] {
   width: 10%;
   background-color: #4CAF50;
   color: white;
