@@ -1,0 +1,322 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link href="css/essentials.css" type="text/css" rel="stylesheet">
+  <link href="css/staff-product.css" type="text/css" rel="stylesheet">
+  <title>PC</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+  <nav class="mainnav" id="mainnav">
+    <ul>
+      <li class="hovleft"><a class="logo" href="index.html"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+      <li class="hovleft"><a class="hov" href="cerberus.html">CERBERUS</a></li>
+      <li class="hovleft"><a class="hov" href="hexus.html">HEXUS</a></li>
+      <li class="hovleft"><a class="hov" href="hopper.html">HOPPER</a></li>
+      <li class="hovright cart"><a class="shoppingcart" href="Orders.html"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+      <li class="hovright"><a href="#" id="login"><img class="navicon" src="media/User.png"></a></li>
+    </ul>
+  </nav>
+<!-- CONTENT -->
+<div class="maincontent">
+  <div class="content">
+    <div class="form-style-5">
+      <form>
+        <fieldset>
+          <legend><span class="number">1</span> Product Info</legend>
+          <input type="text" name="field1" placeholder="Product Name *" required>
+          <input type="email" name="field2" placeholder="Product Price *" required>
+          <label for="field3">Product Image (preferably 1:1 ratio): </label>
+          <input type="file" name="field3" required>
+          <textarea style="margin-top: 20px;" name="field3" placeholder="Product Description"></textarea>
+          <label for="job">Product Type:</label>
+          <select id="job" name="field4">
+          <optgroup label="Types">
+            <option value="motherboard">Motherboard</option>
+            <option value="cpu">Central Processing Unit</option>
+            <option value="cool">Cooling</option>
+            <option value="gpu">Graphics Card</option>
+            <option value="ram">Memory</option>
+            <option value="hdd">Hard Disk Drive</option>
+            <option value="ssd">Solid State Drive</option>
+            <option value="psu">Power Supply Unit</option>
+          </optgroup>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend><span class="number">2</span> Compatibility</legend>
+          <form class="mb">
+            <h2>Motherboard</h2>
+            <div class="inputGroup">
+              <input id="mb1" type="checkbox">
+              <label class="checkbox" for="mb1"><a style="font-weight:bold;">INTEL</a> - Gigabyte Z390M Gaming OC</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mb1" type="checkbox">
+              <label class="checkbox" for="mb1"><a style="font-weight:bold;">INTEL</a> - MSI B360M BAZOOKA</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mb1" type="checkbox"/>
+              <label class="checkbox" for="mb1"><a style="font-weight:bold;">AMD</a> - Gigabyte B450 AORUS PRO WIFI</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mb1" type="checkbox"/>
+              <label class="checkbox" for="mb1"><a style="font-weight:bold;">AMD</a> - ASUS TUF B450M-PRO GAMING</label>
+            </div>
+          </form>
+          <br>
+          <form class="cpu">
+            <h2>CPU</h2>
+            <div class="inputGroup">
+              <input id="cpu1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu1">AMD Ryzen 5 3600X</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cpu2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu2">AMD Ryzen 7 3700X</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cpu3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu3">AMD Ryzen 9 3900X</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cpu4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu4">Intel i5-9600K</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cpu5" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu5">Intel i7-9700K</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cpu6" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cpu6">Intel i9-9900K</label>
+            </div>
+          </form>
+          <br>
+          <form class="cool">
+            <h2>Cooling System</h2>
+            <div class="inputGroup">
+              <input id="cool1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cool1">Stock Cooler (CPU's Default Cooler)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cool2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cool2"><a style="font-weight:bold;">AIR</a> - Cryorig M9</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cool3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cool3"><a style="font-weight:bold;">AIR</a> - Cryorig H7</label>
+            </div>
+            <div class="inputGroup">
+              <input id="cool4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="cool4"><a style="font-weight:bold;">WATER</a> - Corsair 100i 240mm Platinum</label>
+            </div>
+          </form>
+          <br>
+          <form class="gpu">
+            <h2>Graphics Card</h2>
+            <div class="inputGroup">
+              <input id="gpu1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="gpu1">MSI GTX GAMING X 4G</label>
+            </div>
+            <div class="inputGroup">
+              <input id="gpu2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="gpu2">MSI GTX 1660 Super Ventus XS OC</label>
+            </div>
+            <div class="inputGroup">
+              <input id="gpu3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="gpu3">MSI RTX 2060 ARMOR OC 8G</label>
+            </div>
+          </form>
+          <br>
+          <form class="mem">
+            <h2>Memory/RAM</h2>
+            <div class="inputGroup">
+              <input id="mem1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem1">Corsair Vengeance LPX 8GB (1x8GB) DDR4-3000MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem2">Corsair Vengeance LPX 16GB (1x16GB) DDR4-3000MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem3">Corsair Vengeance LPX 16GB (2x8GB) DDR4-3000MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem4">Corsair Vengeance LPX 32GB (2x16GB) DDR4-3000MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem5" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem5">Corsair Vengeance LPX 64GB (4x16GB) DDR4-3000MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem6" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem6">Corsair Vengeance PRO RGB 16GB (2x8GB) DDR4-3200MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem7" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem7">Corsair Vengeance PRO RGB 32GB (2x16GB) DDR4-3200MHz</label>
+            </div>
+            <div class="inputGroup">
+              <input id="mem8" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="mem8">Corsair Vengeance PRO RGB 64GB (4x16GB) DDR4-3200MHz</label>
+            </div>
+          </form>
+          <br>
+          <form class="hdd">
+            <h2>HDD</h2>
+            <div class="inputGroup">
+              <input id="hdd1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd1">1TB Toshiba P300 3.5" HDD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="hdd2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd2">2TB Toshiba P300 3.5" HDD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="hdd3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd3">3TB Toshiba P300 3.5" HDD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="hdd4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd4">4TB Toshiba P300 3.5" HDD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="hdd5" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd5">1TB Seagate Barracuda 3.5" HDD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="hdd6" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="hdd6">2TB Seagate Barracuda 3.5" HDD</label>
+            </div>
+          </form>
+          <br>
+          <form class="ssd">
+            <h2>SSD</h2>
+            <div class="inputGroup">
+              <input id="ssd0" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd0">No SSD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd1">256GB PLUS M.2 NVME SSD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd2">512GB PLUS M.2 NVME SSD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd3">1TB M.2 NVME SSD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd4">1TB PLUS M.2 NVME SSD</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd5" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd5">250GB Samsung 970 EVO PLUS M.2 NMVE</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd6" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd6">500GB Samsung 970 EVO PLUS M.2 NMVE</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd7" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd7">1TB Samsung 970 EVO PLUS M.2 NMVE</label>
+            </div>
+            <div class="inputGroup">
+              <input id="ssd8" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="ssd8">2TB Samsung 970 EVO PLUS M.2 NMVE</label>
+            </div>
+          </form>
+          <br>
+          <form class="psu">
+            <h2>Power Supply Unit</h2>
+            <div class="inputGroup">
+              <input id="psu1" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu1">600W 80+ Standard PSU (Non Modular)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="psu2" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu2">Corsair RM650 80+ GOLD (Fully Modular)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="psu3" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu3">Corsair RM750 80+ GOLD (Fully Modular)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="psu4" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu4">Corsair RM850 80+ GOLD (Fully Modular)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="psu5" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu5">EVGA 600BQ 80+ BRONZE (Semi-Modular)</label>
+            </div>
+            <div class="inputGroup">
+              <input id="psu6" name="checkbox" type="checkbox"/>
+              <label class="checkbox" for="psu6">EVGA 650GD 80+ GOLD (Semi-Modular)</label>
+            </div>
+          </form>
+        </fieldset>
+        <input type="submit" value="Apply" />
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <div class="footer">
+    <div class="footer-left">
+      <div class="footer-links">
+        <table>
+          <tr>
+            <th><a class="footer-title">PRODUCTS</a></th>
+            <th><a class="footer-title">SUPPORT</a></th>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="cerberus.html">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="hexus.html">Hexus</a></td>
+            <td><a class="footer-subtitle" href="FAQ.html">FAQ</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="hopper.html">Hopper</a></td>
+            <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer-rights">
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("mainnav");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+
+  //BigModal
+  document.getElementById('login').addEventListener('click',
+  function popupLogin(){
+    document.querySelector('.big-modal').style.display = 'flex';
+  });
+  document.querySelector('.close').addEventListener('click',
+  function closePopup(){
+    document.querySelector('.big-modal').style.display = 'none';
+  })
+</script>
+</html>
