@@ -11,8 +11,9 @@
     <nav class="mainnav" id="mainnav">
       <ul>
         <li class="hovleft"><a class="logo" href="#top"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
-        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
-        <li class="hovleft"><a class="hov" href="#">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="cerberus.html">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HEXUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HOPPER</a></li>
         <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
         <li class="hovright"><a href="#"><img class="navicon" src="media/User.png"></a></li>
       </ul>
@@ -21,8 +22,8 @@
     <div class="maincontent">
       <div class="content">
         <h2 class="contenttitle">Tracking delivery</h2>
-        <div class="productdesc"><img src="media/PC 1 Showcase 2.png" width="300px" height="200px"><p style="margin:0;font-size:40px;">Cerberus</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="productdesc"><img src="media/PC 1 Showcase 3.png" width="200px" height="200px"><p style="margin:0;font-size:40px;">Cerberus</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
         <div class="proofnreschedule">
           <a button class="proof" href="proofdelivery.html">Proof Of Delivery</button></a>
@@ -45,24 +46,27 @@
           <p style="float:right;">180 Ang Mo Kio Avenue 8 blk 101 #05-05</p>
         </div>
         <div class="updatesshipment">
-          <div class="updatesdiv">
-            <h3>Get text messages updates</h3>
-            <div class="updatesbox">
-              <p>Updates are sent to +65 1234 5678</p>
-              <p id="subnotice"></p>
-              <button type="button" class="unsubbutton" id="unsub" onclick="unsub()">Unsubscribe</button>
+        <table class="shiptable">
+          <tr><td style="padding-right:100px;">
+            <div class="updatesdiv">
+              <h3>Get text messages updates</h3>
+              <div class="updatesbox">
+                <p>Updates are sent to +65 1234 5678</p>
+                <p id="subnotice"></p>
+                <button type="button" class="unsubbutton" id="unsub" onclick="unsub()">Unsubscribe</button>
+              </div>
+            </div></td>
+            <td><div class="shipmentdetails">
+              <h3>Shipment Details</h3>
+              <table border="1" style="border-collapse:collapse;border:grey;">
+                <tr><td colspan="2" bgcolor="#d3d3d3">Last update: Last Friday, 15 Nov</td></tr>
+                <tr><td rowspan="2"><span style="padding-left:25px;">2:53 PM (15 Nov)</span></td><td>Package has arrived the courier facility</td></tr>
+                <tr><td>Courier: PCdelivery Transport Services</td></tr>
+              </table>
+              <a button class="showbtn" href="delivery2.html">Show More</button></a>
             </div>
-          </div>
-          <div class="shipmentdetails">
-            <h3>Shipment Details</h3>
-            <table border="1" style="border-collapse:collapse;border:grey;">
-              <tr><td colspan="2" bgcolor="#d3d3d3">Last update: Last Friday, 15 Nov</td></tr>
-              <tr><td rowspan="2"><span style="padding-left:25px;">2:53 PM (15 Nov)</span></td><td>Package has arrived the courier facility</td></tr>
-              <tr><td>Courier: PCdelivery Transport Services</td></tr>
-            </table>
-            <a button class="showbtn" href="delivery2.html">Show More</button></a>
-          </div>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </td></tr>
+        </table>
         </div>
       </div>
     </div>
