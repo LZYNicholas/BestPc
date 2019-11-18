@@ -105,20 +105,30 @@
 
 .modal-content{
   width: 500px;
-  height: 300px;
+  height: 350px;
   background-color: black;
-  opacity: 1;
-  border-radius: 4px;
-  text-align: center;
+  opacity: 0.9;
+  border-radius: 7px;
+  border-color: #FD6A02
   padding: 20px;
   color: white;
   position: relative;
 }
+.modal-content h3{
+  padding-left: 45%;
+}
 .modal-content img{
   width: 20%;
+  padding-left: 40%;
+}
+.prompt-button{
+  padding-left: 50%;
 }
 
 input{
+  text-align: center;
+  border-radius: 20px;
+  boder: 2px solid  #FD6A02;
   width: 50%;
   display: block;
   margin: 15px auto;
@@ -131,4 +141,48 @@ input{
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+}
+
+.content p{
+  text-align: center;
+  font-family: calibri;
+  font-size: 150%;
+}
+.box h3{
+  font-size: 150%;
+}
+
+.product_button{
+  z-index: 0;
+  color: white;
+  font-size: 150%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: black;
+  text-decoration: none;
+  padding: 0.6%;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: solid white 1px;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.5s;
+}
+
+.product_button:hover{
+  border: solid #FD6A02 10px;
+  box-shadow: 0 5px 15px #FD6A02;
+  transition: 0.5s;
+}
+
+#cbutton:hover{
+  box-shadow: 0 5px 15px #FD6A02;
+}
+#h-button:hover{
+  border: solid #8a2be3 10px;
+  box-shadow: 0 5px 15px #8a2be3;
+
+}
+#Hbutton:hover{
+  border: solid #00ff00 10px;
+  box-shadow: 0 5px 15px #00ff00;
 }
