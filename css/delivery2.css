@@ -11,6 +11,10 @@
 }
 
 .moreshipmentdetails {
-  width:50%;
   margin:0 auto;
+}
+
+.moreshipmentdetails table {
+  margin-left:auto;
+  margin-right:auto;
 }
