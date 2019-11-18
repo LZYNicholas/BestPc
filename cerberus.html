@@ -1,0 +1,332 @@
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link href="css/essentials.css" type="text/css" rel="stylesheet">
+  <link href="css/products.css" type="text/css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/760b44f1d0.js"></script>
+  <title>PC</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+    <nav class="mainnav" id="mainnav">
+      <ul>
+        <li class="hovleft"><a class="logo" href="index.html"><img class="mainlogo" src="media/PC Logo 2.png" alt=""></a></li>
+        <li class="hovleft"><a class="hov" href="cerberus.html">CERBERUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HEXUS</a></li>
+        <li class="hovleft"><a class="hov" href="#">HOPPER</a></li>
+        <li class="hovright cart"><a class="shoppingcart" href="#"><img class="navicon" src="media/ShoppingCart.png"></a></li>
+        <li class="hovright"><a href="#" id="login"><img class="navicon" src="media/User.png"></a></li>
+      </ul>
+    </nav>
+<!--Modal-->
+<div class="big-modal">
+    <div class="modal-content">
+      <div class="close">+</div>
+      <h3>Log In</h3>
+      <img src="media/User.png" alt="">
+      <form class="" action="" method="post">
+        <input type="text" placeholder="Enter Username">
+        <input type="password" placeholder="Enter Password">
+        <br>
+        <a href="profile.html" class="button" id="login-button">LOGIN</a>
+        <br>
+        <br>
+        <a href="registerform.html" class="button" id="register-button">SIGN UP</a>
+      </form>
+    </div>
+</div>
+<!-- CONTENT -->
+<div class="maincontent">
+  <div class="content">
+    <img src="media/PC 1 Showcase 3.png" class="display">
+    <div class="info">
+      <div class="product">
+        <h1 class="name">Cerberus</h1><br>
+        <span class="price">$1000</span>
+      </div>
+      <div class="description">
+        <ul class="ratings">
+          <li class="fas fa-star"></li>
+          <li class="fas fa-star"></li>
+          <li class="fas fa-star"></li>
+          <li class="fas fa-star"></li>
+          <li class="far fa-star"></li>
+        </ul>
+        <form class="mb">
+          <h2>Motherboard</h2>
+          <div class="inputGroup">
+            <input id="mb1" name="radio" type="radio" checked/>
+            <label for="mb1"><a style="font-weight:bold;">INTEL</a> - Gigabyte Z390M Gaming OC</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mb2" name="radio" type="radio"/>
+            <label for="mb2"><a style="font-weight:bold;">INTEL</a> - MSI B360M BAZOOKA</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mb3" name="radio" type="radio"/>
+            <label for="mb3"><a style="font-weight:bold;">AMD</a> - Gigabyte B450 AORUS PRO WIFI</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mb4" name="radio" type="radio"/>
+            <label for="mb4"><a style="font-weight:bold;">AMD</a> - ASUS TUF B450M-PRO GAMING</label>
+          </div>
+        </form>
+        <br>
+        <form class="cpu">
+          <h2>CPU</h2>
+          <div class="inputGroup">
+            <input id="cpu1" name="radio" type="radio" checked/>
+            <label for="cpu1">AMD Ryzen 5 3600X</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cpu2" name="radio" type="radio"/>
+            <label for="cpu2">AMD Ryzen 7 3700X</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cpu3" name="radio" type="radio"/>
+            <label for="cpu3">AMD Ryzen 9 3900X</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cpu4" name="radio" type="radio"/>
+            <label for="cpu4">Intel i5-9600K</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cpu5" name="radio" type="radio"/>
+            <label for="cpu5">Intel i7-9700K</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cpu6" name="radio" type="radio"/>
+            <label for="cpu6">Intel i9-9900K</label>
+          </div>
+        </form>
+        <br>
+        <form class="cool">
+          <h2>Cooling System</h2>
+          <div class="inputGroup">
+            <input id="cool1" name="radio" type="radio" checked/>
+            <label for="cool1">Stock Cooler (CPU's Default Cooler)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cool2" name="radio" type="radio"/>
+            <label for="cool2"><a style="font-weight:bold;">AIR</a> - Cryorig M9</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cool3" name="radio" type="radio"/>
+            <label for="cool3"><a style="font-weight:bold;">AIR</a> - Cryorig H7</label>
+          </div>
+          <div class="inputGroup">
+            <input id="cool4" name="radio" type="radio"/>
+            <label for="cool4"><a style="font-weight:bold;">WATER</a> - Corsair 100i 240mm Platinum</label>
+          </div>
+        </form>
+        <br>
+        <form class="gpu">
+          <h2>Graphics Card</h2>
+          <div class="inputGroup">
+            <input id="gpu1" name="radio" type="radio" checked/>
+            <label for="gpu1">MSI GTX GAMING X 4G</label>
+          </div>
+          <div class="inputGroup">
+            <input id="gpu2" name="radio" type="radio"/>
+            <label for="gpu2">MSI GTX 1660 Super Ventus XS OC</label>
+          </div>
+          <div class="inputGroup">
+            <input id="gpu3" name="radio" type="radio"/>
+            <label for="gpu3">MSI RTX 2060 ARMOR OC 8G</label>
+          </div>
+        </form>
+        <br>
+        <form class="mem">
+          <h2>Memory/RAM</h2>
+          <div class="inputGroup">
+            <input id="mem1" name="radio" type="radio" checked/>
+            <label for="mem1">Corsair Vengeance LPX 8GB (1x8GB) DDR4-3000MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem2" name="radio" type="radio"/>
+            <label for="mem2">Corsair Vengeance LPX 16GB (1x16GB) DDR4-3000MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem3" name="radio" type="radio"/>
+            <label for="mem3">Corsair Vengeance LPX 16GB (2x8GB) DDR4-3000MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem4" name="radio" type="radio"/>
+            <label for="mem4">Corsair Vengeance LPX 32GB (2x16GB) DDR4-3000MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem5" name="radio" type="radio"/>
+            <label for="mem5">Corsair Vengeance LPX 64GB (4x16GB) DDR4-3000MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem6" name="radio" type="radio"/>
+            <label for="mem6">Corsair Vengeance PRO RGB 16GB (2x8GB) DDR4-3200MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem7" name="radio" type="radio"/>
+            <label for="mem7">Corsair Vengeance PRO RGB 32GB (2x16GB) DDR4-3200MHz</label>
+          </div>
+          <div class="inputGroup">
+            <input id="mem8" name="radio" type="radio"/>
+            <label for="mem8">Corsair Vengeance PRO RGB 64GB (4x16GB) DDR4-3200MHz</label>
+          </div>
+        </form>
+        <br>
+        <form class="hdd">
+          <h2>HDD</h2>
+          <div class="inputGroup">
+            <input id="hdd1" name="radio" type="radio" checked/>
+            <label for="hdd1">1TB Toshiba P300 3.5" HDD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="hdd2" name="radio" type="radio"/>
+            <label for="hdd2">2TB Toshiba P300 3.5" HDD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="hdd3" name="radio" type="radio"/>
+            <label for="hdd3">3TB Toshiba P300 3.5" HDD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="hdd4" name="radio" type="radio"/>
+            <label for="hdd4">4TB Toshiba P300 3.5" HDD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="hdd5" name="radio" type="radio"/>
+            <label for="hdd5">1TB Seagate Barracuda 3.5" HDD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="hdd6" name="radio" type="radio"/>
+            <label for="hdd6">2TB Seagate Barracuda 3.5" HDD</label>
+          </div>
+        </form>
+        <br>
+        <form class="ssd">
+          <h2>SSD</h2>
+          <div class="inputGroup">
+            <input id="ssd0" name="radio" type="radio" checked/>
+            <label for="ssd0">No SSD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd1" name="radio" type="radio" checked/>
+            <label for="ssd1">256GB PLUS M.2 NVME SSD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd2" name="radio" type="radio"/>
+            <label for="ssd2">512GB PLUS M.2 NVME SSD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd3" name="radio" type="radio"/>
+            <label for="ssd3">1TB M.2 NVME SSD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd4" name="radio" type="radio"/>
+            <label for="ssd4">1TB PLUS M.2 NVME SSD</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd5" name="radio" type="radio"/>
+            <label for="ssd5">250GB Samsung 970 EVO PLUS M.2 NMVE</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd6" name="radio" type="radio"/>
+            <label for="ssd6">500GB Samsung 970 EVO PLUS M.2 NMVE</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd7" name="radio" type="radio"/>
+            <label for="ssd7">1TB Samsung 970 EVO PLUS M.2 NMVE</label>
+          </div>
+          <div class="inputGroup">
+            <input id="ssd8" name="radio" type="radio"/>
+            <label for="ssd8">2TB Samsung 970 EVO PLUS M.2 NMVE</label>
+          </div>
+        </form>
+        <br>
+        <form class="psu">
+          <h2>Power Supply Unit</h2>
+          <div class="inputGroup">
+            <input id="psu1" name="radio" type="radio" checked/>
+            <label for="psu1">600W 80+ Standard PSU (Non Modular)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="psu2" name="radio" type="radio"/>
+            <label for="psu2">Corsair RM650 80+ GOLD (Fully Modular)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="psu3" name="radio" type="radio"/>
+            <label for="psu3">Corsair RM750 80+ GOLD (Fully Modular)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="psu4" name="radio" type="radio"/>
+            <label for="psu4">Corsair RM850 80+ GOLD (Fully Modular)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="psu5" name="radio" type="radio"/>
+            <label for="psu5">EVGA 600BQ 80+ BRONZE (Semi-Modular)</label>
+          </div>
+          <div class="inputGroup">
+            <input id="psu6" name="radio" type="radio"/>
+            <label for="psu6">EVGA 650GD 80+ GOLD (Semi-Modular)</label>
+          </div>
+        </form>
+        <br>
+        <p></p>
+        <form action="index.html" method="post">
+          <button class="add">ADD TO CART</button>
+        </form>
+        <br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<footer>
+  <div class="footer">
+    <div class="footer-left">
+      <div class="footer-links">
+        <table>
+          <tr>
+            <th><a class="footer-title">PRODUCTS</a></th>
+            <th><a class="footer-title">SUPPORT</a></th>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">Contact Us</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">FAQ</a></td>
+          </tr>
+          <tr>
+            <td><a class="footer-subtitle" href="#">Cerberus</a></td>
+            <td><a class="footer-subtitle" href="#">Enquiry Report</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="footer-rights">
+    </div>
+  </div>
+</footer>
+<script type="text/javascript">
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("mainnav");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  //BigModal
+  document.getElementById('login').addEventListener('click',
+  function popupLogin(){
+    document.querySelector('.big-modal').style.display = 'flex';
+  });
+  document.querySelector('.close').addEventListener('click',
+  function closePopup(){
+    document.querySelector('.big-modal').style.display = 'none';
+  })
+</script>
+</html>
