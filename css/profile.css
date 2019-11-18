@@ -6,6 +6,16 @@
   top: 45%;
   left: 15%;
 }
+.profile-content{
+  padding: 40px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+}
+.profile-content a{
+  margin: auto;
+  text-align: center;
+  padding-left:;
+}
 
 .subtitle {
   color: white;
@@ -34,5 +44,5 @@
   border-radius: 5px;
   -webkit-transition-duration: 0.5s;
   padding: 5px 10px 5px 10px;
-  
+
 }
