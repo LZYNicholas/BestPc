@@ -3,21 +3,24 @@
 }
 
 .content {
-  padding: 80px 500px;
-}
-
-table td {
-  padding:15px;
+  padding-top:80px;
 }
 
 .deliverynproduct {
   overflow:auto;
 }
 
-.deliveryinfo {
-  float:left;
+.productinfo {
+  padding-bottom: 150px;
+  padding-left:200px;
 }
 
-.productinfo {
-  float:right;
+.tablespace td {
+  padding:15px;
+}
+
+.deliverynproduct {
+  padding-bottom: 400px;
+  padding-left: 400px;
+  padding-top:50px;
 }
