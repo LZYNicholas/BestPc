@@ -11,8 +11,7 @@
 }
 
 .productinfo {
-  padding-bottom: 150px;
-  padding-left:100px;
+  padding-left: 50px;
 }
 
 .tablespace td {
@@ -56,4 +55,14 @@
   width: 100px;
   padding-top: 80px;
   padding-bottom: 150px;
+}
+
+.signature {
+  border:1px solid black;
+  height: 150px;
+  width:215px;
+}
+
+hr {
+  width: 70%;
 }
