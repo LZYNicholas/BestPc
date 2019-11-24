@@ -55,7 +55,6 @@ div.footer {
 }
 
 .FAQPAGE {
-  position: fixed;
   text-align: center;
   color: black;
 }
@@ -70,6 +69,10 @@ div.footer {
 }
 
 .Thang li {
+  color: black;
   list-style:none;
 }
 
+.Thang ul {
+  color: #F76C1A;
+}
